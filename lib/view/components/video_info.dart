@@ -11,20 +11,26 @@ class VideoInfo extends StatefulWidget {
 }
 
 class _VideoInfoState extends State<VideoInfo> {
-  List info = [
+  List videoInfo = [
     {
       "title": "Squat and Walk",
       "time": "45 seconds",
-      "thumbail": "embed/squat2.jpg",
+      "thumbail": "assets/images/arm.png",
       "videUrl": "https://www.youtube.com/watch?v=aclHkVaku9U"
+    },
+    {
+      "title": "Sexecrcise",
+      "time": "65 seconds",
+      "thumbail": "assets/images/abs.png",
+      "videUrl": "https://www.youtube.com/watch?v=OXQ5ee6p9ZA"
     }
   ];
-  void _initData() {
-    DefaultAssetBundle.of(context)
+  void _initData() async {
+    await DefaultAssetBundle.of(context)
         .loadString('json/videoinfo.json')
         .then((value) {
-      info = jsonDecode(value);
-      devtool.log(info.toString());
+      videoInfo = jsonDecode(value);
+      devtool.log(videoInfo.toString());
     });
   }
 
@@ -36,7 +42,7 @@ class _VideoInfoState extends State<VideoInfo> {
 
   @override
   Widget build(BuildContext context) {
-    devtool.log(info.length.toString());
+    devtool.log(videoInfo.length.toString());
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
@@ -219,7 +225,84 @@ class _VideoInfoState extends State<VideoInfo> {
                         width: 20,
                       ),
                     ],
-                  )
+                  ),
+                  Expanded(
+                    child: ListView.builder(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 30),
+                      itemCount: videoInfo.length,
+                      itemBuilder: (context, index) {
+                        return GestureDetector(
+                          onTap: () => devtool.log('click'),
+                          child: Container(
+                            height: 135,
+                            width: 200,
+                            child: Column(
+                              children: [
+                                Row(
+                                  children: [
+                                    Container(
+                                      width: 80,
+                                      height: 80,
+                                      decoration: BoxDecoration(
+                                          color: Colors.red,
+                                          borderRadius:
+                                              BorderRadius.circular(10),
+                                          image: DecorationImage(
+                                              image: AssetImage(videoInfo[index]
+                                                  ['thumbail']))),
+                                    ),
+                                    const SizedBox(
+                                      width: 20,
+                                    ),
+                                    Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          videoInfo[index]['title'],
+                                          style: const TextStyle(
+                                              fontSize: 16,
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.black),
+                                        ),
+                                        const SizedBox(
+                                          height: 10,
+                                        ),
+                                        Text(videoInfo[index]['time'])
+                                      ],
+                                    )
+                                  ],
+                                ),
+                                const SizedBox(
+                                  height: 18,
+                                ),
+                                Row(
+                                  children: [
+                                    Container(
+                                      width: 80,
+                                      height: 20,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(10),
+                                        color: Colors.grey.shade300,
+                                      ),
+                                      child: Center(
+                                        child: Text(
+                                          '15s rest',
+                                          style: TextStyle(
+                                              color: Colors.grey.shade900),
+                                        ),
+                                      ),
+                                    )
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
                 ],
               ),
             ),

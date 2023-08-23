@@ -81,7 +81,7 @@ class _HomePageState extends State<HomePage> {
                     width: 15.0,
                   ),
                   InkWell(
-                    onTap: () => Get.to(const VideoInfo()),
+                    onTap: () => Get.to(() => const VideoInfo()),
                     child: const Icon(
                       Icons.arrow_forward,
                       size: 20.0,
