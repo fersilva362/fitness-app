@@ -1,11 +1,10 @@
-import 'dart:convert';
-import 'dart:developer' as devtool show log;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:stream_feed_example_test/view/components/first_container.dart';
-import 'package:stream_feed_example_test/view/components/second_container.dart';
-import 'package:stream_feed_example_test/view/components/third_container_list_view.dart';
+import 'package:stream_feed_example_test/view/components/homepage/first_container.dart';
 import 'package:stream_feed_example_test/view/components/video_info.dart';
+
+import 'components/homepage/second_container.dart';
+import 'components/homepage/third_container_list_view.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -35,10 +34,13 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                   Expanded(child: Container()),
-                  const Icon(
-                    Icons.arrow_back_ios,
-                    size: 20.0,
-                    color: Colors.black54,
+                  InkWell(
+                    onTap: () => Get.back(),
+                    child: const Icon(
+                      Icons.arrow_back_ios,
+                      size: 20.0,
+                      color: Colors.black54,
+                    ),
                   ),
                   const SizedBox(
                     width: 10.0,

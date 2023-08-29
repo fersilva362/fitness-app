@@ -1,2 +1,32 @@
-[{"title":"Squat and Walk", 
-"time":"45 seconds","thumbail":"embed/squat2.jpg", "videUrl":"https://www.youtube.com/watch?v=aclHkVaku9U"}]
+[
+    {
+      "title": "Squat and Walk",
+      "time": "45 seconds",
+      "thumbail": "assets/images/arm.png",
+      "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+    },
+    {
+      "title": "Sexecrcise",
+      "time": "65 seconds",
+      "thumbail": "assets/images/abs.png",
+      "videoUrl": "https://static.videezy.com/system/resources/previews/000/044/249/original/01__2822_29.mp4"
+    },
+    {
+      "title": "Sexecrcise",
+      "time": "65 seconds",
+      "thumbail": "assets/images/abs.png",
+      "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+    },
+    {
+      "title": "Sexecrcise",
+      "time": "65 seconds",
+      "thumbail": "assets/images/abs.png",
+      "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+    },
+    {
+      "title": "Sexecrcise",
+      "time": "65 seconds",
+      "thumbail": "assets/images/abs.png",
+      "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+    }
+  ]
