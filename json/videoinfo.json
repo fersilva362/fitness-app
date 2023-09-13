@@ -1,32 +1,27 @@
 [
     {
-      "title": "Squat and Walk",
-      "time": "45 seconds",
-      "thumbail": "assets/images/arm.png",
-      "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+      "title": "Squat",
+      "time": "02:41 minutes",
+      "thumbail": "assets/images/tsquat1.png",
+      "videoLocal":"assets/videos/squat.mp4"
     },
     {
-      "title": "Sexecrcise",
-      "time": "65 seconds",
-      "thumbail": "assets/images/abs.png",
-      "videoUrl": "https://static.videezy.com/system/resources/previews/000/044/249/original/01__2822_29.mp4"
+      "title": "Romanian deadlift ",
+      "time": "0:41 minutes",
+      "thumbail": "assets/images/tromanian.png",
+      "videoLocal":"assets/videos/Romanian.mp4"
     },
     {
-      "title": "Sexecrcise",
-      "time": "65 seconds",
-      "thumbail": "assets/images/abs.png",
-      "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+      "title": "Calves",
+      "time": "08:31 minutes",
+      "thumbail": "assets/images/calves11.png",
+      "videoLocal":"assets/videos/calves.mp4"
     },
     {
-      "title": "Sexecrcise",
-      "time": "65 seconds",
-      "thumbail": "assets/images/abs.png",
-      "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-    },
-    {
-      "title": "Sexecrcise",
-      "time": "65 seconds",
-      "thumbail": "assets/images/abs.png",
-      "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+      "title": "Leg Press",
+      "time": "03:41 minutes",
+      "thumbail": "assets/images/leg455.png",
+      "videoLocal":"assets/videos/leg45.mp4"
     }
+    
   ]
