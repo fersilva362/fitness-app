@@ -17,14 +17,15 @@ flutter run
 ## Screenshots 
 These images are from a virtual Android device PixelXP.
 
-<img src="https://github.com/fersilva362/fitness-app/assets/78646102/53223aa0-03c8-4527-a0ec-684eaba98201" alt="A" style="height: 600px; width:300px;"/>
-````
 <img src="https://github.com/fersilva362/fitness-app/assets/78646102/b963f05d-8696-4b83-8bbb-87a12f79019b" alt="B" style="height: 600px; width:300px;"/>
+````
+<img src="https://github.com/fersilva362/fitness-app/assets/78646102/53223aa0-03c8-4527-a0ec-684eaba98201" alt="A" style="height: 600px; width:300px;"/>
 ````
 <img src="https://github.com/fersilva362/fitness-app/assets/78646102/648c3f23-2e4a-443f-849e-220c0e5ece40" alt="C" style="height: 600px; width:300px;"/>
 
 
 
+![screenshot]()
 
 
 
