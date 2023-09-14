@@ -21,9 +21,9 @@ These images are from a virtual Android device PixelXP.
 ````
 <img src="https://github.com/fersilva362/fitness-app/assets/78646102/43059b74-e5c6-47ef-a7c9-392cfe175869" alt="B" style="height: 600px; width:300px;"/>
 ````
-<img src="https://github.com/fersilva362/fitness-app/assets/78646102/9eddb3a0-2459-4353-a455-35f6f51c5228" alt="C" style="height: 600px; width:300px;"/>
+<img src="https://github.com/fersilva362/fitness-app/assets/78646102/648c3f23-2e4a-443f-849e-220c0e5ece40" alt="C" style="height: 600px; width:300px;"/>
 
 
-![screenshot](https://github.com/fersilva362/fitness-app/assets/78646102/648c3f23-2e4a-443f-849e-220c0e5ece40)
+
 
 
