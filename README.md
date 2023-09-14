@@ -24,8 +24,3 @@ These images are from a virtual Android device PixelXP.
 <img src="https://github.com/fersilva362/fitness-app/assets/78646102/648c3f23-2e4a-443f-849e-220c0e5ece40" alt="C" style="height: 600px; width:300px;"/>
 
 
-
-![screenshot]()
-
-
-
