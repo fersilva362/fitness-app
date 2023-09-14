@@ -1,10 +1,6 @@
 # CircuitTraining Mobile/Web
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.CircuitTraining is a Mobile/web application built in flutter (https://flutter.dev/?gclid=CjwKCAjw3oqoBhAjEiwA_UaLtjMOM-9oW1E0kgXzdbBEu78dUJy5AziNKSh4F7gr_mlctzlfvtXW6hoCiAcQAvD_BwE&gclsrc=aw.ds) using GetX (https://pub.dev/packages/get) as a route manager, and ideoPlayer (https://pub.dev/packages/video_player) for playing back  video .
+This project is a starting point for a Flutter application. CircuitTraining is a Mobile/web application built in flutter ! (https://flutter.dev/?gclid=CjwKCAjw3oqoBhAjEiwA_UaLtjMOM-9oW1E0kgXzdbBEu78dUJy5AziNKSh4F7gr_mlctzlfvtXW6hoCiAcQAvD_BwE&gclsrc=aw.ds) using GetX (https://pub.dev/packages/get) as a route manager, and ideoPlayer (https://pub.dev/packages/video_player) for playing back  video .
 ## Getting Started
 Follow these instructions to build and run the project
 ## Setup Project
