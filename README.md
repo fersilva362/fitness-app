@@ -19,10 +19,5 @@ These images are from a virtual Android device PixelXP
 
 <img src="https://github.com/fersilva362/fitness-app/assets/78646102/9eddb3a0-2459-4353-a455-35f6f51c5228" alt="MarineGEO circle logo" style="height: 600px; width:300px;"/>
 
-![screenshot](https://github.com/fersilva362/fitness-app/assets/78646102/9eddb3a0-2459-4353-a455-35f6f51c5228)
-
-![screenshot](https://github.com/fersilva362/fitness-app/assets/78646102/53223aa0-03c8-4527-a0ec-684eaba98201)
-
-![screenshot](https://github.com/fersilva362/fitness-app/assets/78646102/43059b74-e5c6-47ef-a7c9-392cfe175869)
 
 
