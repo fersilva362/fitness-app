@@ -17,7 +17,7 @@ flutter run
 ## Screenshots 
 These images are from a virtual Android device PixelXP
 
-<img src="https://github.com/fersilva362/fitness-app/assets/78646102/9eddb3a0-2459-4353-a455-35f6f51c5228" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+<img src="https://github.com/fersilva362/fitness-app/assets/78646102/9eddb3a0-2459-4353-a455-35f6f51c5228" alt="MarineGEO circle logo" style="height: 200px; width:300px;"/>
 
 ![screenshot](https://github.com/fersilva362/fitness-app/assets/78646102/9eddb3a0-2459-4353-a455-35f6f51c5228)
 
