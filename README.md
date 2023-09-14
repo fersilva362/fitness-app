@@ -4,12 +4,12 @@ This project is a starting point for a Flutter application. CircuitTraining is a
 
 ## Getting Started
 Follow these instructions to build and run the project
-## Setup Project
 
+## Setup Project
 -	Clone this repository using git clone https://github.com/fersilva362/fitness-app.git 
 -	cd into CircuitTraining_app.
 -	flutter pub get to get all the dependencies.
--	
+  
 ## Running the app
 Make sure you have a connected Android/iOS device/simulator and run the following command to build and run the app in debug mode.
 flutter run
